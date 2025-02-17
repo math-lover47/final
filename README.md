@@ -62,5 +62,9 @@ Articles:
 
 https://www.medicalnewstoday.com/articles/active-recovery#types
 
+<<<<<<< HEAD
+https://bjsm.bmj.com/
+>>>>>>> 6c4f9ca (add: navbar)
+=======
 https://bjsm.bmj.com/
 >>>>>>> 6c4f9ca (add: navbar)
