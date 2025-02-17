@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-L
-=======
 # Inspired by:
 
 I look for examples in [dribble](https://dribbble.com/shots/25639750-Watch-shopping-store-web-ui-design), [coolors](https://coolors.co/5efc8d-546a76-bcbdc0-993955-000000) and in [w.](https://www.awwwards.com/) 
