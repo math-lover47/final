@@ -1,0 +1,121 @@
+/* General Styles */
+:root {
+  --primary-azure: 0, 123, 255;
+  --secondary-cyan: 0, 178, 254;
+  --secondary-blue: 0, 124, 178;
+  --accent-orange: 255, 193, 7;
+  --text-dark: 34, 34, 34;
+  --text-light: 255, 255, 255;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: rgb(var(--text-dark));
+}
+.banner {
+  position: relative;
+  background-color: gray;
+}
+.banner #dotsCanvas {
+  position: absolute;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn {
+  background-color: rgb(var(--primary-azure));
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  background-color: rgb(var(--secondary-cyan));
+}
+/* Navbar */
+.navbar {
+  background: rgba(var(--primary-azure), 0.95);
+}
+
+.logo {
+  margin-bottom: -1rem;
+}
+.nav-link {
+  color: rgb(var(--text-light)) !important;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: rgb(var(--accent-orange)) !important;
+}
+
+/* Footer */
+.footer {
+  background: rgb(var(--primary-azure));
+  color: rgb(var(--text-light));
+  padding: 2rem 0;
+  margin-top: 5rem;
+}
+
+.footer-social a {
+  color: rgb(var(--text-light));
+  transition: all 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: rgb(var(--accent-orange));
+}
+
+/* Responsive Grid */
+.footer-about-clinic {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.footer-social {
+  display: flex;
+  justify-items: flex-start;
+  gap: 30px;
+}
+.footer-social i {
+  cursor: pointer;
+}
+/* animation */
+.hidden {
+  opacity: 0;
+  scale: 0.5;
+  transition: all 3s;
+}
+.show {
+  opacity: 1;
+  scale: 1;
+}
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background: rgba(var(--primary-azure), 0.95);
+    padding: 1rem;
+  }
+  .logo {
+    display: none;
+  }
+  .navbar-toggler {
+    margin-left: auto;
+    margin-right: 0;
+  }
+}

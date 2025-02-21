@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Appointment</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../styles/general.css" />
+    <link rel="stylesheet" href="../styles/appointment.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="../images/asm_favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- navbar with link to: -->
+    <!-- Home, About, Services, Blog, Contact -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="logo">
+        <a href="home.html">
+          <svg
+            width="300"
+            height="100"
+            viewBox="0 0 300 100"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <!-- Text -->
+            <text
+              x="60"
+              y="50"
+              font-family="Arial, sans-serif"
+              font-size="20"
+              font-weight="bold"
+              fill="#222"
+            >
+              Astana Sport Medicine
+            </text>
+          </svg>
+        </a>
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle Navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item px-5">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item px-5">
+            <a class="nav-link" href="aboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item px-5">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item px-5">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item px-5">
+            <a class="nav-link" href="contactUs.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Add after nav -->
+    <main class="container mt-5 pt-5">
+      <h1 class="text-center mb-5">Book Appointment</h1>
+
+      <div class="row g-4">
+        <div class="col-md-6">
+          <form id="appointmentForm">
+            <div class="mb-3">
+              <label class="form-label">Select Specialist</label>
+              <select class="form-select" id="specialistSelect">
+                <!-- Options loaded via JS -->
+              </select>
+            </div>
+            <!-- More form fields -->
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+
+        <div class="col-md-6">
+          <div id="doctorCards" class="row g-3">
+            <!-- Doctor cards loaded via JS -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <div style="background-color: #008000" class="py-2">
+      <div class="container">
+        <footer>
+          <h1 class="text-center my-5">Astana Sport Medicine</h1>
+          <div class="footer-about-clinic">
+            <div class="contacts">
+              <div class="footer-phone">
+                <h5 style="color: #fff">Contacts</h5>
+                <p>
+                  <a href="#">+7 705 296 XX XX</a>
+                  <br />
+                  <a href="#">+7 775 603 XX XX</a>
+                </p>
+              </div>
+              <div class="footer-email">
+                <h5 style="color: #fff">Email</h5>
+                <p><a href="#">info@med.kz</a></p>
+              </div>
+            </div>
+            <div>
+              <h5 style="color: #fff">Opening Times:</h5>
+              <div class="opening-times">
+                <div class="time">
+                  <p class="day"><a href="#">Mo-Fr</a></p>
+                  <p class="clock"><a href="#">07-22 o'clock</a></p>
+                </div>
+                <div class="time">
+                  <p class="day"><a href="#">Saturday</a></p>
+                  <p class="clock"><a href="#">10-16 o'clock</a></p>
+                </div>
+                <div class="time">
+                  <p class="day"><a href="#">Sunday</a></p>
+                  <p class="clock"><a href="#">10-17 o'clock</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="social">
+              <h5 style="color: #fff">Social Media:</h5>
+              <div class="footer-social">
+                <a href="https://www.instagram.com" target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a href="https://www.youtube.com" target="_blank"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
+                <a href="https://www.tiktok.com" target="_blank"
+                  ><i class="fa-brands fa-tiktok"></i
+                ></a>
+                <a href="https://www.facebook.com" target="_blank"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../scripts/appointment.js"></script>
+  </body>
+</html>

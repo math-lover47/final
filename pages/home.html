@@ -26,63 +26,314 @@
     />
   </head>
   <body>
-    <!-- navbar with link to: -->
-    <!-- Home, About, Services, Blog, Contact -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="logo">
-        <a href="home.html">
-          <svg
-            width="300"
-            height="100"
-            viewBox="0 0 300 100"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <!-- Text -->
-            <text
-              x="60"
-              y="50"
-              font-family="Arial, sans-serif"
-              font-size="20"
-              font-weight="bold"
-              fill="#222"
-            >
-              Astana Sport Medicine
-            </text>
-          </svg>
-        </a>
-      </div>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle Navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <!-- navbar-section -->
+    <section>
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <div class="logo">
+            <a href="home.html">
+              <svg
+                width="300"
+                height="100"
+                viewBox="0 0 300 100"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <text
+                  x="60"
+                  y="50"
+                  font-family="Arial, sans-serif"
+                  font-size="20"
+                  font-weight="bold"
+                  fill="#222"
+                >
+                  Astana Sport Medicine
+                </text>
+              </svg>
+            </a>
+          </div>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item px-5">
-            <a class="nav-link" href="home.html">Home</a>
-          </li>
-          <li class="nav-item px-5">
-            <a class="nav-link" href="aboutUs.html">About Us</a>
-          </li>
-          <li class="nav-item px-5">
-            <a class="nav-link" href="services.html">Services</a>
-          </li>
-          <li class="nav-item px-5">
-            <a class="nav-link" href="blog.html">Blog</a>
-          </li>
-          <li class="nav-item px-5">
-            <a class="nav-link" href="contactUs.html">Contact</a>
-          </li>
-        </ul>
+          <!-- Navbar Toggler -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle Navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar Links -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item px-3">
+                <a class="nav-link" href="home.html">Home</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="aboutUs.html">About Us</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="appointment.html">Appointment</a>
+              </li>
+            </ul>
+
+            <!-- Login & Sign Up Buttons -->
+            <div class="d-flex">
+              <a href="login.html" class="btn btn-outline-light me-2">Login</a>
+              <a href="signup.html" class="btn btn-outline-light me-2"
+                >Sign Up</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- hero-section -->
+    <section class="hero">
+      <video autoplay muted loop id="myBanner">
+        <source
+          src="../videos/hero-section/HOSPITAL-MEDICAL-STAFF-DOCTORS-CORRIDOR-4K.mp4"
+          type="video/mp4"
+        />
+      </video>
+
+      <div class="hero-content">
+        <div class="container">
+          <h1>Welcome to Astana Sport Medicine</h1>
+          <p>
+            We are a team of professionals who are dedicated to providing the
+            best care for our patients. Our goal is to help you recover faster
+            and stay strong.
+          </p>
+          <a href="services.html" class="btn">Our Services</a>
+        </div>
       </div>
-    </nav>
+    </section>
+
+    <section class="hidden">
+      <h1 class="text-center my-5">Sports Medicine</h1>
+      <div class="intro">
+        <!-- Bootstrap Carousel -->
+        <div
+          id="sportsMedicineCarousel"
+          class="carousel slide d-block d-md-none"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h5>01 — Injury Prevention</h5>
+              <p></p>
+              <p>
+                Sports medicine focuses on preventing injuries through tailored
+                training programs, proper nutrition, and biomechanical analysis.
+              </p>
+            </div>
+            <div class="carousel-item">
+              <h5>02 — Advanced Recovery</h5>
+              <p></p>
+              <p>
+                Cutting-edge diagnostics and treatments in sports medicine help
+                athletes recover faster and return to peak performance.
+              </p>
+            </div>
+            <div class="carousel-item">
+              <h5>03 — Performance Optimization</h5>
+              <p></p>
+              <p>
+                Sports medicine integrates nutrition, psychology, and physical
+                therapy to enhance overall athletic performance.
+              </p>
+            </div>
+            <div class="carousel-item">
+              <h5>04 — Holistic Athlete Care</h5>
+              <p></p>
+              <p>
+                Elite athletic performance demands more of the human body — more
+                biological systems working together to keep athletes ready to
+                compete. Sports medicine ensures holistic care for athletes at
+                all levels.
+              </p>
+            </div>
+            <div class="carousel-item">
+              <h5>05 — Science-Driven Solutions</h5>
+              <p></p>
+              <p>
+                Sports medicine is grounded in scientific research, ensuring
+                evidence-based practices for injury management and performance
+                enhancement.
+              </p>
+            </div>
+          </div>
+          <!-- Carousel Controls -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#sportsMedicineCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#sportsMedicineCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <div class="text-area d-none d-md-block">
+          <p id="display-text">
+            Elite athletic performance demands more of the human body — more
+            biological systems working together to keep athletes ready to
+            compete. Sports medicine plays a critical role in optimizing
+            performance, preventing injuries, and ensuring a swift recovery,
+            allowing athletes to focus on what they love most.
+          </p>
+        </div>
+        <!-- Buttons for Larger Screens -->
+        <div class="buttons d-none d-md-block">
+          <button
+            class="btn"
+            data-text="Sports medicine focuses on preventing injuries through tailored training programs, proper nutrition, and biomechanical analysis."
+          >
+            01 — Injury Prevention
+          </button>
+          <button
+            class="btn"
+            data-text="Cutting-edge diagnostics and treatments in sports medicine help athletes recover faster and return to peak performance."
+          >
+            02 — Advanced Recovery
+          </button>
+          <button
+            class="btn"
+            data-text="Sports medicine integrates nutrition, psychology, and physical therapy to enhance overall athletic performance."
+          >
+            03 — Performance Optimization
+          </button>
+          <button
+            class="btn active"
+            data-text="Elite athletic performance demands more of the human body — more biological systems working together to keep athletes ready to compete. Sports medicine ensures holistic care for athletes at all levels."
+          >
+            04 — Holistic Athlete Care
+          </button>
+          <button
+            class="btn"
+            data-text="Sports medicine is grounded in scientific research, ensuring evidence-based practices for injury management and performance enhancement."
+          >
+            05 — Science-Driven Solutions
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="container my-5 hidden">
+      <div id="motivationalBannerCarousel" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="../images/motivationalbanners/photo-01.jpg"
+              class="d-block w-100"
+              alt="Banner 1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../images/motivationalbanners/photo-02.jpg"
+              class="d-block w-100"
+              alt="Banner 2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../images/motivationalbanners/photo-03.jpg"
+              class="d-block w-100"
+              alt="Banner 3"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#motivationalBannerCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#motivationalBannerCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+      <div class="container">
+        <footer>
+          <h1 class="text-center my-5">Astana Sport Medicine</h1>
+          <div class="footer-about-clinic">
+            <div class="contacts">
+              <div class="footer-phone">
+                <h5 style="color: #fff">Contacts</h5>
+                <p>
+                  +7 705 296 XX XX
+                  <br />
+                  +7 775 603 XX XX
+                </p>
+              </div>
+              <div class="footer-email">
+                <h5 style="color: #fff">Email</h5>
+                <p>info@med.kz</p>
+              </div>
+            </div>
+            <div>
+              <h5 style="color: #fff">Opening Times:</h5>
+              <p></p>
+              <pre>Mo-Fr          07-22 o'clock</pre>
+              <pre>Saturday       10-16 o'clock</pre>
+              <pre>Sunday         10-17 o'clock</pre>
+            </div>
+            <div class="social">
+              <h5 style="color: #fff">Social Media:</h5>
+              <div class="footer-social">
+                <a href="https://www.instagram.com" target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a href="https://www.youtube.com" target="_blank"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
+                <a href="https://www.tiktok.com" target="_blank"
+                  ><i class="fa-brands fa-tiktok"></i
+                ></a>
+                <a href="https://www.facebook.com" target="_blank"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -95,5 +346,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../scripts/general.js"></script>
+    <script src="../scripts/home.js"></script>
   </body>
 </html>
