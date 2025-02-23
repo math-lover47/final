@@ -34,17 +34,24 @@ h5,
 h6 {
   font-family: "Montserrat", sans-serif;
 }
-
+.section {
+  margin: 50vh 0;
+}
 .btn {
   background-color: rgb(var(--primary-azure));
   transition: all 0.3s ease;
+  color: rgb(var(--text-dark));
 }
 .btn:hover {
   background-color: rgb(var(--secondary-cyan));
+  color: rgb(var(--text-light));
 }
 /* Navbar */
 .navbar {
   background: rgba(var(--primary-azure), 0.95);
+}
+.registration .btn:hover{
+  background: #fff;
 }
 
 .logo {
@@ -57,7 +64,7 @@ h6 {
 }
 
 .nav-link:hover {
-  color: rgb(var(--accent-orange)) !important;
+  color: rgb(var(--text-dark)) !important;
 }
 
 /* Footer */
@@ -93,9 +100,9 @@ h6 {
 }
 /* animation */
 .hidden {
-  opacity: 0;
-  scale: 0.5;
-  transition: all 3s;
+  opacity: 0.5;
+  scale: 0.9;
+  transition: all 1s ease;
 }
 .show {
   opacity: 1;

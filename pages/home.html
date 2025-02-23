@@ -87,7 +87,7 @@
             </ul>
 
             <!-- Login & Sign Up Buttons -->
-            <div class="d-flex">
+            <div class="registration d-flex">
               <a href="login.html" class="btn btn-outline-light me-2">Login</a>
               <a href="signup.html" class="btn btn-outline-light me-2"
                 >Sign Up</a
@@ -109,8 +109,8 @@
 
       <div class="hero-content">
         <div class="container">
-          <h1>Welcome to Astana Sport Medicine</h1>
-          <p>
+          <h1 class="fw-bold display-2">Welcome to Astana Sport Medicine</h1>
+          <p class="display-6">
             We are a team of professionals who are dedicated to providing the
             best care for our patients. Our goal is to help you recover faster
             and stay strong.
@@ -120,8 +120,11 @@
       </div>
     </section>
 
-    <section class="hidden">
-      <h1 class="text-center my-5">Sports Medicine</h1>
+    <!-- about ASM-->
+    <section class="hidden section">
+      <h1 class="text-center my-5 fw-bold display-6">
+        See why thousands of practices choose ASM
+      </h1>
       <div class="intro">
         <!-- Bootstrap Carousel -->
         <div
@@ -134,24 +137,24 @@
               <h5>01 — Injury Prevention</h5>
               <p></p>
               <p>
-                Sports medicine focuses on preventing injuries through tailored
-                training programs, proper nutrition, and biomechanical analysis.
+                ASM focuses on preventing injuries through tailored training
+                programs, proper nutrition, and biomechanical analysis.
               </p>
             </div>
             <div class="carousel-item">
               <h5>02 — Advanced Recovery</h5>
               <p></p>
               <p>
-                Cutting-edge diagnostics and treatments in sports medicine help
-                athletes recover faster and return to peak performance.
+                Cutting-edge diagnostics and treatments in ASM help athletes
+                recover faster and return to peak performance.
               </p>
             </div>
             <div class="carousel-item">
               <h5>03 — Performance Optimization</h5>
               <p></p>
               <p>
-                Sports medicine integrates nutrition, psychology, and physical
-                therapy to enhance overall athletic performance.
+                ASM integrates nutrition, psychology, and physical therapy to
+                enhance overall athletic performance.
               </p>
             </div>
             <div class="carousel-item">
@@ -160,17 +163,15 @@
               <p>
                 Elite athletic performance demands more of the human body — more
                 biological systems working together to keep athletes ready to
-                compete. Sports medicine ensures holistic care for athletes at
-                all levels.
+                compete. ASM ensures holistic care for athletes at all levels.
               </p>
             </div>
             <div class="carousel-item">
               <h5>05 — Science-Driven Solutions</h5>
               <p></p>
               <p>
-                Sports medicine is grounded in scientific research, ensuring
-                evidence-based practices for injury management and performance
-                enhancement.
+                ASM is grounded in scientific research, ensuring evidence-based
+                practices for injury management and performance enhancement.
               </p>
             </div>
           </div>
@@ -199,40 +200,40 @@
           <p id="display-text">
             Elite athletic performance demands more of the human body — more
             biological systems working together to keep athletes ready to
-            compete. Sports medicine plays a critical role in optimizing
-            performance, preventing injuries, and ensuring a swift recovery,
-            allowing athletes to focus on what they love most.
+            compete. ASM plays a critical role in optimizing performance,
+            preventing injuries, and ensuring a swift recovery, allowing
+            athletes to focus on what they love most.
           </p>
         </div>
         <!-- Buttons for Larger Screens -->
         <div class="buttons d-none d-md-block">
           <button
             class="btn"
-            data-text="Sports medicine focuses on preventing injuries through tailored training programs, proper nutrition, and biomechanical analysis."
+            data-text="ASM focuses on preventing injuries through tailored training programs, proper nutrition, and biomechanical analysis."
           >
             01 — Injury Prevention
           </button>
           <button
             class="btn"
-            data-text="Cutting-edge diagnostics and treatments in sports medicine help athletes recover faster and return to peak performance."
+            data-text="Cutting-edge diagnostics and treatments in ASM help athletes recover faster and return to peak performance."
           >
             02 — Advanced Recovery
           </button>
           <button
             class="btn"
-            data-text="Sports medicine integrates nutrition, psychology, and physical therapy to enhance overall athletic performance."
+            data-text="ASM integrates nutrition, psychology, and physical therapy to enhance overall athletic performance."
           >
             03 — Performance Optimization
           </button>
           <button
             class="btn active"
-            data-text="Elite athletic performance demands more of the human body — more biological systems working together to keep athletes ready to compete. Sports medicine ensures holistic care for athletes at all levels."
+            data-text="Elite athletic performance demands more of the human body — more biological systems working together to keep athletes ready to compete. ASM ensures holistic care for athletes at all levels."
           >
             04 — Holistic Athlete Care
           </button>
           <button
             class="btn"
-            data-text="Sports medicine is grounded in scientific research, ensuring evidence-based practices for injury management and performance enhancement."
+            data-text="ASM is grounded in scientific research, ensuring evidence-based practices for injury management and performance enhancement."
           >
             05 — Science-Driven Solutions
           </button>
@@ -240,54 +241,302 @@
       </div>
     </section>
 
-    <section class="container my-5 hidden">
-      <div id="motivationalBannerCarousel" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="../images/motivationalbanners/photo-01.jpg"
-              class="d-block w-100"
-              alt="Banner 1"
-            />
+    <section class="motivational-banner-section">
+      <div class="container">
+        <h1 class="text-center my-5 fw-bold display-6">
+          With us you can:
+        </h1>
+        <!-- Row 1 -->
+        <div class="row motivational-banner-row">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <div class="motivational-banner-box">
+              <a href="#" class="gallery-item" data-type="image">
+                <img
+                  src="../images/motivationalbanners/photo-01.jpg"
+                  alt="Meditation"
+                />
+                <div class="text-overlay">
+                  <h2>Find Inner Peace</h2>
+                </div>
+              </a>
+            </div>
           </div>
-          <div class="carousel-item">
-            <img
-              src="../images/motivationalbanners/photo-02.jpg"
-              class="d-block w-100"
-              alt="Banner 2"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="../images/motivationalbanners/photo-03.jpg"
-              class="d-block w-100"
-              alt="Banner 3"
-            />
+          <div class="col-md-6">
+            <div class="motivational-banner-box">
+              <a href="#" class="gallery-item" data-type="image">
+                <img
+                  src="../images/motivationalbanners/photo-02.jpg"
+                  alt="Mountain summit"
+                />
+                <div class="image-overlay">
+                  <h2>Reach Your Summit</h2>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#motivationalBannerCarousel"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#motivationalBannerCarousel"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+
+        <!-- Row 2 -->
+        <div class="row motivational-banner-row">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <div class="motivational-banner-box">
+              <a href="#" class="gallery-item" data-type="image">
+                <img
+                  src="../images/motivationalbanners/photo-03.jpg"
+                  alt="Ocean waves"
+                />
+                <div class="image-overlay">
+                  <h2>Embrace the Journey</h2>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="motivational-banner-box">
+              <a href="#" class="gallery-item" data-type="image">
+                <img
+                  src="../images/motivationalbanners/photo-04.jpg"
+                  alt="Forest path"
+                />
+                <div class="text-overlay">
+                  <h2>Create Your Path</h2>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="row motivational-banner-row">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <div class="motivational-banner-box">
+              <a href="#" class="gallery-item" data-type="image">
+                <img
+                  src="../images/motivationalbanners/photo-05.jpg"
+                  alt="Sunrise"
+                />
+                <div class="text-overlay">
+                  <h2>Begin Anew</h2>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="motivational-banner-box">
+              <a href="#" class="gallery-item" data-type="image">
+                <img
+                  src="../images/motivationalbanners/photo-06.jpg"
+                  alt="Runner at sunset"
+                />
+                <div class="image-overlay">
+                  <h2>Push Forward</h2>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Lightbox -->
+    <div class="lightbox">
+      <button class="lightbox-close">&times;</button>
+      <button class="lightbox-nav lightbox-prev">&lt;</button>
+      <button class="lightbox-nav lightbox-next">&gt;</button>
+      <div class="lightbox-content"></div>
+    </div>
+
+    <!-- testinomials -->
+    <section class="testimonials hidden section">
+      <h2 class="fw-bold display-6 text-center my-5">What our customers say</h2>
+      <div id="carouselExampleControls" class="carousel container">
+        <div class="row">
+          <div class="container my-5">
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="carousel-inner">
+                <!-- Video Card 1 -->
+                <div class="carousel-item active">
+                  <div class="card">
+                    <video muted loop>
+                      <source
+                        src="../videos/testinomials/video-01.mp4"
+                        type="video/mp4"
+                      />
+                      Your browser does not support the video tag.
+                    </video>
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Name</h5>
+                      <p class="card-text">Disease</p>
+                      <a href="#" class="btn btn-primary">Hear their story</a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Video Card 2 -->
+                <div class="carousel-item">
+                  <div class="card">
+                    <video muted loop>
+                      <source
+                        src="../videos/testinomials/video-02.mp4"
+                        class="testimonialVideo"
+                        type="video/mp4"
+                      />
+                      Your browser does not support the video tag.
+                    </video>
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Name</h5>
+                      <p class="card-text">Disease</p>
+                      <a href="#" class="btn btn-primary">Hear their story</a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Video Card 3 -->
+                <div class="carousel-item active">
+                  <div class="card">
+                    <video muted loop>
+                      <source
+                        src="../videos/testinomials/video-01.mp4"
+                        type="video/mp4"
+                      />
+                      Your browser does not support the video tag.
+                    </video>
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Name</h5>
+                      <p class="card-text">Disease</p>
+                      <a href="#" class="btn btn-primary">Hear their story</a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Video Card 4 -->
+                <div class="carousel-item">
+                  <div class="card">
+                    <video muted loop>
+                      <source
+                        src="../videos/testinomials/video-02.mp4"
+                        class="testimonialVideo"
+                        type="video/mp4"
+                      />
+                      Your browser does not support the video tag.
+                    </video>
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Name</h5>
+                      <p class="card-text">Disease</p>
+                      <a href="#" class="btn btn-primary">Hear their story</a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Video Card 5 -->
+                <div class="carousel-item active">
+                  <div class="card">
+                    <video muted loop>
+                      <source
+                        src="../videos/testinomials/video-01.mp4"
+                        type="video/mp4"
+                      />
+                      Your browser does not support the video tag.
+                    </video>
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Name</h5>
+                      <p class="card-text">Disease</p>
+                      <a href="#" class="btn btn-primary">Hear their story</a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Video Card 6 -->
+                <div class="carousel-item">
+                  <div class="card">
+                    <video muted loop>
+                      <source
+                        src="../videos/testinomials/video-02.mp4"
+                        class="testimonialVideo"
+                        type="video/mp4"
+                      />
+                      Your browser does not support the video tag.
+                    </video>
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Name</h5>
+                      <p class="card-text">Disease</p>
+                      <a href="#" class="btn btn-primary">Hear their story</a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Video Card 7 -->
+                <div class="carousel-item active">
+                  <div class="card">
+                    <video muted loop>
+                      <source
+                        src="../videos/testinomials/video-01.mp4"
+                        type="video/mp4"
+                      />
+                      Your browser does not support the video tag.
+                    </video>
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Name</h5>
+                      <p class="card-text">Disease</p>
+                      <a href="#" class="btn btn-primary">Hear their story</a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Video Card 8 -->
+                <div class="carousel-item">
+                  <div class="card">
+                    <video muted loop>
+                      <source
+                        src="../videos/testinomials/video-02.mp4"
+                        class="testimonialVideo"
+                        type="video/mp4"
+                      />
+                      Your browser does not support the video tag.
+                    </video>
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Name</h5>
+                      <p class="card-text">Disease</p>
+                      <a href="#" class="btn btn-primary">Hear their story</a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Add more video or image cards as needed -->
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- footer -->
-    <section class="footer">
+    <section class="footer hidden">
       <div class="container">
         <footer>
           <h1 class="text-center my-5">Astana Sport Medicine</h1>
