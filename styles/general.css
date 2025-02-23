@@ -40,18 +40,15 @@ h6 {
 .btn {
   background-color: rgb(var(--primary-azure));
   transition: all 0.3s ease;
-  color: rgb(var(--text-dark));
+  color: rgb(var(--text-light));
 }
 .btn:hover {
   background-color: rgb(var(--secondary-cyan));
-  color: rgb(var(--text-light));
+  color: rgb(var(--text-dark));
 }
 /* Navbar */
 .navbar {
   background: rgba(var(--primary-azure), 0.95);
-}
-.registration .btn:hover{
-  background: #fff;
 }
 
 .logo {
@@ -108,21 +105,43 @@ h6 {
   opacity: 1;
   scale: 1;
 }
+.r-small {
+  display: none;
+}
+.registration .btn:hover {
+  background: #fff;
+}
+
+.r-large {
+  display: flex;
+}
+.r-large .btn {
+   width: 8rem;
+}
+
 @media (prefers-reduced-motion) {
   .hidden {
     transition: none;
   }
 }
-@media (max-width: 768px) {
-  .navbar-collapse {
-    background: rgba(var(--primary-azure), 0.95);
-    padding: 1rem;
-  }
+@media (max-width: 1160px) {
   .logo {
     display: none;
   }
-  .navbar-toggler {
-    margin-left: auto;
-    margin-right: 0;
+}
+@media (max-width: 992px) {
+  .logo {
+    display: none;
+  }
+  .r-large {
+    display: none;
+  }
+  .r-small {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-collapse {
+    padding: 1rem;
   }
 }

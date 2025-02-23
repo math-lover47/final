@@ -33,11 +33,11 @@
 
 ## Home Page
 
-- Motivational banners with carousel/slider (using Bootstrap).
+- Motivational banners with lightbox (Bootstrap + Jquery).
 
-- Brief introduction to sports medicine and its importance.
+- Brief introduction to ASM and its importance.
 
-- Call-to-action buttons: "Book an Appointment," "Learn More About Recovery."
+- Call-to-action buttons: "Our Services" "Hear their history"
 
 - Interactive elements: Smooth scrolling animations, hover effects on buttons.
 
@@ -296,3 +296,16 @@ Articles:
 https://www.medicalnewstoday.com/articles/active-recovery#types
 
 https://bjsm.bmj.com/
+
+
+additional
+
+https://www.youtube.com/watch?v=Z1BGAivZRlE
+
+https://www.youtube.com/watch?v=NVy2TO4yL8A
+
+https://www.mayoclinic.org/
+
+https://www.athenahealth.com/
+
+https://www.youtube.com/results?search_query=modal+bootstrap+login+sign+up
