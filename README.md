@@ -65,27 +65,25 @@
 
 - Interactive components:
 
-  - Search bar with autocomplete (using JS/jQuery).
+  - Pagination buttons for articles.
 
-  - Pagination or "Load More" button for articles.
-
-  - Social sharing buttons for each article.
+  - Read more buttons for each article.
 
 ## About us
 
 - List of available doctors and trainers with:
 
-  - Photos
+  - Photo
 
-  - Specializations
+  - Role in team
 
-  - Brief bios
+  - Specialization
 
 - Interactive components:
 
-  - Filterable table (e.g., filter by specialization, availability).
+  - Filterable table (e.g., filter by profession).
 
-  - Modal windows for detailed profiles (using JS/jQuery).
+  - Bootstrap cards.
 
 ## Appointment Booking Page
 
@@ -309,3 +307,7 @@ https://www.mayoclinic.org/
 https://www.athenahealth.com/
 
 https://www.youtube.com/results?search_query=modal+bootstrap+login+sign+up
+
+https://www.youtube.com/watch?v=GQejHTFwyLo
+
+https://www.youtube.com/watch?v=mslD-bpvjiU

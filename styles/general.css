@@ -12,19 +12,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: rgb(var(--text-dark));
 }
-.banner {
-  position: relative;
-  background-color: gray;
-}
-.banner #dotsCanvas {
-  position: absolute;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-}
 
 h1,
 h2,
@@ -116,18 +103,19 @@ h6 {
   display: flex;
 }
 .r-large .btn {
-   width: 8rem;
+  width: 8rem;
 }
-
 @media (prefers-reduced-motion) {
   .hidden {
     transition: none;
   }
 }
-@media (max-width: 1160px) {
+
+@media (max-width: 1900px) {
   .logo {
     display: none;
   }
+
 }
 @media (max-width: 992px) {
   .logo {
