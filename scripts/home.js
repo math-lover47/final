@@ -1,4 +1,101 @@
+const testimonialData = [
+  {
+    id: 1,
+    video: "../videos/testinomials/video-01.mp4",
+    name: "name",
+    disease: "disease",
+  },
+  {
+    id: 2,
+    video: "../videos/testinomials/video-02.mp4",
+    name: "name",
+    disease: "disease",
+  },
+  {
+    id: 1,
+    video: "../videos/testinomials/video-01.mp4",
+    name: "name",
+    disease: "disease",
+  },
+  {
+    id: 2,
+    video: "../videos/testinomials/video-02.mp4",
+    name: "name",
+    disease: "disease",
+  },
+  {
+    id: 1,
+    video: "../videos/testinomials/video-01.mp4",
+    name: "name",
+    disease: "disease",
+  },
+  {
+    id: 2,
+    video: "../videos/testinomials/video-02.mp4",
+    name: "name",
+    disease: "disease",
+  },
+];
+const state = {
+  testimonialSet: testimonialData,
+};
+function buildTestimonials() {
+  const cards = $("#testimonialCards");
+  cards.empty();
+
+  state.testimonialSet.forEach((cardInfo, index) => {
+    const card = `
+      <div class="carousel-item ${index === 0 ? "active" : ""}">
+        <div class="card">
+          <video muted loop class="testimonialVideo">
+            <source src="${cardInfo.video}" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div class="card-img-overlay">
+            <h5 class="card-title">${cardInfo.name}</h5>
+            <p class="card-text">${cardInfo.disease}</p>
+            <a href="#" class="btn btn-primary watch-video-btn" data-video="${
+              cardInfo.video
+            }">
+              Hear their story
+            </a>
+          </div>
+        </div>
+      </div>
+    `;
+    cards.append(card);
+  });
+}
 $(document).ready(function () {
+  buildTestimonials();
+
+  // Event binding for watch video buttons
+  $(document).on("click", ".watch-video-btn", function (e) {
+    e.preventDefault();
+    const videoSrc = $(this).data("video"); // Get video source from data attribute
+
+    // Set the video source in the modal
+    $("#modalVideo source").attr("src", videoSrc);
+    $("#modalVideo")[0].load(); // Load the new source
+    $("#modalVideo")[0].play(); // Start playing automatically
+
+    // Show the modal
+    $("#videoModal").css("display", "block");
+  });
+
+  // Close modal when the close button is clicked
+  $(".close").click(function () {
+    $("#modalVideo")[0].pause(); // Pause the video
+    $("#videoModal").css("display", "none"); // Hide the modal
+  });
+
+  // Close modal when clicking outside the modal
+  $(window).click(function (e) {
+    if (e.target.id === "videoModal") {
+      $("#modalVideo")[0].pause(); // Pause the video
+      $("#videoModal").css("display", "none"); // Hide the modal
+    }
+  });
   $(".btn").click(function () {
     var newText = $(this).data("text");
 
@@ -62,6 +159,7 @@ $(document).ready(function () {
       $(this).get(0).pause();
     }
   );
+
   //  lightbox
   const galleryItems = $(".gallery-item");
   const lightbox = $(".lightbox");

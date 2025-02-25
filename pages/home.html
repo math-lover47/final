@@ -29,7 +29,6 @@
     <!-- navbar-section -->
     <div id="navbar-container"></div>
 
-
     <!-- hero-section -->
     <section class="hero">
       <video autoplay muted loop id="myBanner">
@@ -270,12 +269,16 @@
     <!-- Lightbox -->
     <div class="lightbox">
       <button class="lightbox-close">&times;</button>
-      <button class="lightbox-nav lightbox-prev">&lt;</button>
-      <button class="lightbox-nav lightbox-next">&gt;</button>
+      <button class="lightbox-nav lightbox-prev">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button class="lightbox-nav lightbox-next">
+        <i class="fas fa-chevron-right"></i>
+      </button>
       <div class="lightbox-content"></div>
     </div>
 
-    <!-- testinomials -->
+    <!-- Testimonials Section -->
     <section class="testimonials hidden section">
       <h2 class="fw-bold display-6 text-center my-5">What our customers say</h2>
       <div id="carouselExampleControls" class="carousel container">
@@ -308,166 +311,26 @@
           </div>
           <div class="row">
             <div class="col">
-              <div class="carousel-inner">
-                <!-- Video Card 1 -->
-                <div class="carousel-item active">
-                  <div class="card">
-                    <video muted loop>
-                      <source
-                        src="../videos/testinomials/video-01.mp4"
-                        type="video/mp4"
-                      />
-                      Your browser does not support the video tag.
-                    </video>
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">Name</h5>
-                      <p class="card-text">Disease</p>
-                      <a href="#" class="btn btn-primary">Hear their story</a>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Video Card 2 -->
-                <div class="carousel-item">
-                  <div class="card">
-                    <video muted loop>
-                      <source
-                        src="../videos/testinomials/video-02.mp4"
-                        class="testimonialVideo"
-                        type="video/mp4"
-                      />
-                      Your browser does not support the video tag.
-                    </video>
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">Name</h5>
-                      <p class="card-text">Disease</p>
-                      <a href="#" class="btn btn-primary">Hear their story</a>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Video Card 3 -->
-                <div class="carousel-item active">
-                  <div class="card">
-                    <video muted loop>
-                      <source
-                        src="../videos/testinomials/video-01.mp4"
-                        type="video/mp4"
-                      />
-                      Your browser does not support the video tag.
-                    </video>
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">Name</h5>
-                      <p class="card-text">Disease</p>
-                      <a href="#" class="btn btn-primary">Hear their story</a>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Video Card 4 -->
-                <div class="carousel-item">
-                  <div class="card">
-                    <video muted loop>
-                      <source
-                        src="../videos/testinomials/video-02.mp4"
-                        class="testimonialVideo"
-                        type="video/mp4"
-                      />
-                      Your browser does not support the video tag.
-                    </video>
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">Name</h5>
-                      <p class="card-text">Disease</p>
-                      <a href="#" class="btn btn-primary">Hear their story</a>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Video Card 5 -->
-                <div class="carousel-item active">
-                  <div class="card">
-                    <video muted loop>
-                      <source
-                        src="../videos/testinomials/video-01.mp4"
-                        type="video/mp4"
-                      />
-                      Your browser does not support the video tag.
-                    </video>
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">Name</h5>
-                      <p class="card-text">Disease</p>
-                      <a href="#" class="btn btn-primary">Hear their story</a>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Video Card 6 -->
-                <div class="carousel-item">
-                  <div class="card">
-                    <video muted loop>
-                      <source
-                        src="../videos/testinomials/video-02.mp4"
-                        class="testimonialVideo"
-                        type="video/mp4"
-                      />
-                      Your browser does not support the video tag.
-                    </video>
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">Name</h5>
-                      <p class="card-text">Disease</p>
-                      <a href="#" class="btn btn-primary">Hear their story</a>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Video Card 7 -->
-                <div class="carousel-item active">
-                  <div class="card">
-                    <video muted loop>
-                      <source
-                        src="../videos/testinomials/video-01.mp4"
-                        type="video/mp4"
-                      />
-                      Your browser does not support the video tag.
-                    </video>
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">Name</h5>
-                      <p class="card-text">Disease</p>
-                      <a href="#" class="btn btn-primary">Hear their story</a>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Video Card 8 -->
-                <div class="carousel-item">
-                  <div class="card">
-                    <video muted loop>
-                      <source
-                        src="../videos/testinomials/video-02.mp4"
-                        class="testimonialVideo"
-                        type="video/mp4"
-                      />
-                      Your browser does not support the video tag.
-                    </video>
-                    <div class="card-img-overlay">
-                      <h5 class="card-title">Name</h5>
-                      <p class="card-text">Disease</p>
-                      <a href="#" class="btn btn-primary">Hear their story</a>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Add more video or image cards as needed -->
-              </div>
+              <div class="carousel-inner" id="testimonialCards"></div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Single Modal for All Videos -->
+    <div id="videoModal" class="modal">
+      <div class="modal-content">
+        <i class="fa-solid fa-x close"></i>
+        <video id="modalVideo" controls>
+          <source src="" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+
     <!-- footer -->
     <div id="footer-container"></div>
-
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

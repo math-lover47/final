@@ -21,6 +21,11 @@ h5,
 h6 {
   font-family: "Montserrat", sans-serif;
 }
+p {
+  font-size: 1.1rem;
+  color: #4a5568;
+  line-height: 1.8;
+}
 .section {
   margin: 50vh 0;
 }

@@ -333,6 +333,15 @@ const styles = `
 
 // Add event listeners
 $(document).ready(function () {
+  $($("#readmorebtn")).on("click", () => {
+    $("#moretext").toggle();
+    if ($("#moretext").css("display") === "none") {
+      $("#readmorebtn").text("Read More"); // Use .text() method to set text
+    } else {
+      $("#readmorebtn").text("Read Less"); // Use .text() method to set text
+    }
+  });
+
   // Add styles to document
   $("head").append(styles);
 

@@ -270,7 +270,6 @@ video:hover {
 }
 
 .lightbox-content {
-  position: relative;
   max-width: 90%;
   max-height: 90vh;
 }
@@ -331,4 +330,42 @@ video:hover {
   .lightbox-nav {
     font-size: 1.5rem;
   }
+}
+
+/* Modal Styles */
+.modal {
+  display: none; /* Hidden by default */
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.8); /* Black with opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  margin: 5% auto; /* 0% from the top and centered */
+  max-width: 50rem; /* Maximum width */
+}
+
+/* Close Button */
+.close {
+  position: absolute;
+  z-index: 1;
+  top: 0.5rem;
+  right: 0.5rem;
+  color: #000;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #555;
+}
+
+/* Video Styling */
+#modalVideo {
+  height: 100%;
+  width: auto;
+  margin: 0 auto; /* 0% from the top and centered */
 }
