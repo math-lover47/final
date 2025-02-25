@@ -1,0 +1,1192 @@
+[
+  {
+    "title": "Sambo Training",
+    "type": "sport",
+    "time": "08:00 - 08:45",
+    "person": "Arman Nurmagambetov",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Kazakh Wrestling",
+    "type": "sport",
+    "time": "08:45 - 09:30",
+    "person": "Serik Berikov",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "MMA Basics",
+    "type": "sport",
+    "time": "09:30 - 10:15",
+    "person": "Murat Akhmetov",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Orthopedic Consultation",
+    "type": "medicine",
+    "time": "10:15 - 11:00",
+    "person": "Dr. Gulnara Iskakova",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Sports Physical",
+    "type": "medicine",
+    "time": "11:00 - 11:45",
+    "person": "Dr. Vladimir Petrov",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Post-Injury Assessment",
+    "type": "medicine",
+    "time": "12:00 - 12:45",
+    "person": "Dr. Ainur Smagulova",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Kickboxing",
+    "type": "sport",
+    "time": "12:45 - 13:30",
+    "person": "Igor Kazikhanov",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Weightlifting",
+    "type": "sport",
+    "time": "13:30 - 14:15",
+    "person": "Ruslan Nugmanov",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Sports Nutrition",
+    "type": "medicine",
+    "time": "14:15 - 15:00",
+    "person": "Dr. Natalia Sorokina",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Boxing Techniques",
+    "type": "sport",
+    "time": "15:00 - 15:45",
+    "person": "Dmitry Volkov",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Advanced MMA",
+    "type": "sport",
+    "time": "16:00 - 16:45",
+    "person": "Timur Beisembayev",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Martial Arts Therapy",
+    "type": "medicine",
+    "time": "16:45 - 17:30",
+    "person": "Dr. Alina Romanova",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Traditional Kazakh Wrestling",
+    "type": "sport",
+    "time": "17:30 - 18:15",
+    "person": "Bolat Nurpeisov",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Sports Rehabilitation",
+    "type": "medicine",
+    "time": "18:15 - 19:00",
+    "person": "Dr. Yerbol Tasmagambetov",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Combat Sambo",
+    "type": "sport",
+    "time": "19:00 - 19:45",
+    "person": "Alexei Kuznetsov",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Judo Training",
+    "type": "sport",
+    "time": "08:15 - 09:00",
+    "person": "Kanat Yessenov",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Wrestling Fundamentals",
+    "type": "sport",
+    "time": "09:00 - 09:45",
+    "person": "Aybek Tulegenov",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Sports Medicine",
+    "type": "medicine",
+    "time": "09:45 - 10:30",
+    "person": "Dr. Olga Smirnova",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Injury Prevention",
+    "type": "medicine",
+    "time": "10:30 - 11:15",
+    "person": "Dr. Maxim Ivanov",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Strength Training",
+    "type": "sport",
+    "time": "11:15 - 12:00",
+    "person": "Darkhan Nurzhanov",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Physiotherapy",
+    "type": "medicine",
+    "time": "12:00 - 12:45",
+    "person": "Dr. Asel Baitursynova",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Sports Massage",
+    "type": "medicine",
+    "time": "12:45 - 13:30",
+    "person": "Dr. Sergei Morozov",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Muay Thai",
+    "type": "sport",
+    "time": "13:30 - 14:15",
+    "person": "Nurzhan Bekbosyn",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Wrestling Conditioning",
+    "type": "sport",
+    "time": "14:15 - 15:00",
+    "person": "Galym Kenzhebayev",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Physical Therapy",
+    "type": "medicine",
+    "time": "15:00 - 15:45",
+    "person": "Dr. Tatyana Kulikova",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Grappling Techniques",
+    "type": "sport",
+    "time": "16:00 - 16:45",
+    "person": "Yerlan Konakbayev",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Athletic Assessment",
+    "type": "medicine",
+    "time": "16:45 - 17:30",
+    "person": "Dr. Elena Popova",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "MMA Conditioning",
+    "type": "sport",
+    "time": "17:30 - 18:15",
+    "person": "Azamat Temirov",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Sports Psychology",
+    "type": "medicine",
+    "time": "18:15 - 19:00",
+    "person": "Dr. Marat Sabitov",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Kyokushin Karate",
+    "type": "sport",
+    "time": "19:00 - 19:45",
+    "person": "Ivan Sokolov",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Boxing Fundamentals",
+    "type": "sport",
+    "time": "08:00 - 08:45",
+    "person": "Bakhtiyar Nurpeisov",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Strength & Conditioning",
+    "type": "sport",
+    "time": "08:45 - 09:30",
+    "person": "Zhanat Zhakiyanov",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Olympic Wrestling",
+    "type": "sport",
+    "time": "09:30 - 10:15",
+    "person": "Eldar Khamitov",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Nutritional Counseling",
+    "type": "medicine",
+    "time": "10:15 - 11:00",
+    "person": "Dr. Dinara Esimova",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Injury Rehabilitation",
+    "type": "medicine",
+    "time": "11:00 - 11:45",
+    "person": "Dr. Pavel Orlov",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Performance Assessment",
+    "type": "medicine",
+    "time": "12:00 - 12:45",
+    "person": "Dr. Zhanna Iskakova",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Combat Striking",
+    "type": "sport",
+    "time": "12:45 - 13:30",
+    "person": "Askar Baitasov",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Sambo Techniques",
+    "type": "sport",
+    "time": "13:30 - 14:15",
+    "person": "Mikhail Popov",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Joint Mobility",
+    "type": "medicine",
+    "time": "14:15 - 15:00",
+    "person": "Dr. Artur Konovalov",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Therapeutic Massage",
+    "type": "medicine",
+    "time": "15:00 - 15:45",
+    "person": "Dr. Raushan Kenzhebekova",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Brazilian Jiu-Jitsu",
+    "type": "sport",
+    "time": "16:00 - 16:45",
+    "person": "Nurlan Berdibekov",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Mixed Martial Arts",
+    "type": "sport",
+    "time": "16:45 - 17:30",
+    "person": "Daniyar Yeleusinov",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Combat Sports Medicine",
+    "type": "medicine",
+    "time": "17:30 - 18:15",
+    "person": "Dr. Yulia Novikova",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Sports Injuries",
+    "type": "medicine",
+    "time": "18:15 - 19:00",
+    "person": "Dr. Aidos Sultanov",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Kickboxing Advanced",
+    "type": "sport",
+    "time": "19:00 - 19:45",
+    "person": "Roman Grigoriev",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Wrestling Drills",
+    "type": "sport",
+    "time": "08:15 - 09:00",
+    "person": "Bekzat Almakhan",
+    "date": "2025-03-03"
+  },
+  {
+    "title": "MMA Sparring",
+    "type": "sport",
+    "time": "09:00 - 09:45",
+    "person": "Almaz Kenenbaev",
+    "date": "2025-03-03"
+  },
+  {
+    "title": "Sports Nutrition",
+    "type": "medicine",
+    "time": "09:45 - 10:30",
+    "person": "Dr. Nikolai Smirnov",
+    "date": "2025-03-03"
+  },
+  {
+    "title": "Concussion Assessment",
+    "type": "medicine",
+    "time": "10:30 - 11:15",
+    "person": "Dr. Gulmira Tazhibaeva",
+    "date": "2025-03-03"
+  },
+  {
+    "title": "Sambo Advanced",
+    "type": "sport",
+    "time": "11:15 - 12:00",
+    "person": "Kairat Nurmagambetov",
+    "date": "2025-03-03"
+  },
+  {
+    "title": "Medical Screening",
+    "type": "medicine",
+    "time": "12:00 - 12:45",
+    "person": "Dr. Alexandra Kuznetsova",
+    "date": "2025-03-03"
+  },
+  {
+    "title": "Flexibility Training",
+    "type": "sport",
+    "time": "12:45 - 13:30",
+    "person": "Yevgeniy Ryabov",
+    "date": "2025-03-03"
+  },
+  {
+    "title": "Athletic Rehabilitation",
+    "type": "medicine",
+    "time": "13:30 - 14:15",
+    "person": "Dr. Bakhytzhan Nurpeisov",
+    "date": "2025-03-03"
+  },
+  {
+    "title": "Traditional Boxing",
+    "type": "sport",
+    "time": "14:15 - 15:00",
+    "person": "Arman Kulibayev",
+    "date": "2025-03-03"
+  },
+  {
+    "title": "Injury Consultation",
+    "type": "medicine",
+    "time": "15:00 - 15:45",
+    "person": "Dr. Svetlana Ivanova",
+    "date": "2025-03-03"
+  },
+  {
+    "title": "Submission Wrestling",
+    "type": "sport",
+    "time": "16:00 - 16:45",
+    "person": "Bauyrzhan Orazgaliyev",
+    "date": "2025-03-03"
+  },
+  {
+    "title": "Sports Cardiology",
+    "type": "medicine",
+    "time": "16:45 - 17:30",
+    "person": "Dr. Ilyas Tasmagambetov",
+    "date": "2025-03-03"
+  },
+  {
+    "title": "Combat Fitness",
+    "type": "sport",
+    "time": "17:30 - 18:15",
+    "person": "Stanislav Drozdov",
+    "date": "2025-03-03"
+  },
+  {
+    "title": "Medical Checkup",
+    "type": "medicine",
+    "time": "18:15 - 19:00",
+    "person": "Dr. Kamila Rakhimova",
+    "date": "2025-03-03"
+  },
+  {
+    "title": "Wrestling Takedowns",
+    "type": "sport",
+    "time": "19:00 - 19:45",
+    "person": "Madiyar Ashkeev",
+    "date": "2025-03-03"
+  },
+  {
+    "title": "Cardio Conditioning",
+    "type": "sport",
+    "time": "08:00 - 08:45",
+    "person": "Rustem Omarov",
+    "date": "2025-03-10"
+  },
+  {
+    "title": "Boxing Combinations",
+    "type": "sport",
+    "time": "08:45 - 09:30",
+    "person": "Viktor Demyanenko",
+    "date": "2025-03-10"
+  },
+  {
+    "title": "MMA Strategy",
+    "type": "sport",
+    "time": "09:30 - 10:15",
+    "person": "Nurbol Zhumbayev",
+    "date": "2025-03-10"
+  },
+  {
+    "title": "Sports Medicine Evaluation",
+    "type": "medicine",
+    "time": "10:15 - 11:00",
+    "person": "Dr. Irina Solovyova",
+    "date": "2025-03-10"
+  },
+  {
+    "title": "Kinesio Taping",
+    "type": "medicine",
+    "time": "11:00 - 11:45",
+    "person": "Dr. Amir Kaskabayev",
+    "date": "2025-03-10"
+  },
+  {
+    "title": "Mobility Work",
+    "type": "medicine",
+    "time": "12:00 - 12:45",
+    "person": "Dr. Anya Lebedeva",
+    "date": "2025-03-10"
+  },
+  {
+    "title": "Ground Game",
+    "type": "sport",
+    "time": "12:45 - 13:30",
+    "person": "Daryn Zhumadilov",
+    "date": "2025-03-10"
+  },
+  {
+    "title": "Striking Mechanics",
+    "type": "sport",
+    "time": "13:30 - 14:15",
+    "person": "Sergey Morozov",
+    "date": "2025-03-10"
+  },
+  {
+    "title": "Recovery Therapy",
+    "type": "medicine",
+    "time": "14:15 - 15:00",
+    "person": "Dr. Saule Akhmetzhan",
+    "date": "2025-03-10"
+  },
+  {
+    "title": "Functional Assessment",
+    "type": "medicine",
+    "time": "15:00 - 15:45",
+    "person": "Dr. Andrei Kovalev",
+    "date": "2025-03-10"
+  },
+  {
+    "title": "Judo Techniques",
+    "type": "sport",
+    "time": "16:00 - 16:45",
+    "person": "Maxim Rakov",
+    "date": "2025-03-10"
+  },
+  {
+    "title": "Strength Conditioning",
+    "type": "sport",
+    "time": "16:45 - 17:30",
+    "person": "Adil Zhubanyshev",
+    "date": "2025-03-10"
+  },
+  {
+    "title": "Sports Orthopedics",
+    "type": "medicine",
+    "time": "17:30 - 18:15",
+    "person": "Dr. Marina Kozlova",
+    "date": "2025-03-10"
+  },
+  {
+    "title": "Musculoskeletal Ultrasound",
+    "type": "medicine",
+    "time": "18:15 - 19:00",
+    "person": "Dr. Kanat Baytursynov",
+    "date": "2025-03-10"
+  },
+  {
+    "title": "Tactical Wrestling",
+    "type": "sport",
+    "time": "19:00 - 19:45",
+    "person": "Askhat Zhitkeyev",
+    "date": "2025-03-10"
+  },
+  {
+    "title": "Boxing Footwork",
+    "type": "sport",
+    "time": "08:15 - 09:00",
+    "person": "Samat Bashenov",
+    "date": "2025-03-17"
+  },
+  {
+    "title": "Combat Training",
+    "type": "sport",
+    "time": "09:00 - 09:45",
+    "person": "Dmitry Balakin",
+    "date": "2025-03-17"
+  },
+  {
+    "title": "Injury Management",
+    "type": "medicine",
+    "time": "09:45 - 10:30",
+    "person": "Dr. Aizhan Mukanova",
+    "date": "2025-03-17"
+  },
+  {
+    "title": "Medical Clearance",
+    "type": "medicine",
+    "time": "10:30 - 11:15",
+    "person": "Dr. Grigory Fedorov",
+    "date": "2025-03-17"
+  },
+  {
+    "title": "Counter Wrestling",
+    "type": "sport",
+    "time": "11:15 - 12:00",
+    "person": "Talgat Syzdykov",
+    "date": "2025-03-17"
+  },
+  {
+    "title": "Therapeutic Exercise",
+    "type": "medicine",
+    "time": "12:00 - 12:45",
+    "person": "Dr. Larisa Petrova",
+    "date": "2025-03-17"
+  },
+  {
+    "title": "Performance Nutrition",
+    "type": "medicine",
+    "time": "12:45 - 13:30",
+    "person": "Dr. Zarina Shakhanova",
+    "date": "2025-03-17"
+  },
+  {
+    "title": "Special Combat Training",
+    "type": "sport",
+    "time": "13:30 - 14:15",
+    "person": "Nurzhan Turlybek",
+    "date": "2025-03-17"
+  },
+  {
+    "title": "Fight Strategy",
+    "type": "sport",
+    "time": "14:15 - 15:00",
+    "person": "Alexey Fedoseev",
+    "date": "2025-03-17"
+  },
+  {
+    "title": "Preventative Care",
+    "type": "medicine",
+    "time": "15:00 - 15:45",
+    "person": "Dr. Alma Tursunova",
+    "date": "2025-03-17"
+  },
+  {
+    "title": "Sambo Training",
+    "type": "sport",
+    "time": "08:00 - 08:45",
+    "person": "Arman Nurmagambetov",
+    "date": "2025-02-24"
+  },
+  {
+    "title": "Kazakh Wrestling",
+    "type": "sport",
+    "time": "08:45 - 09:30",
+    "person": "Serik Berikov",
+    "date": "2025-02-24"
+  },
+  {
+    "title": "MMA Basics",
+    "type": "sport",
+    "time": "09:30 - 10:15",
+    "person": "Murat Akhmetov",
+    "date": "2025-02-24"
+  },
+  {
+    "title": "Orthopedic Consultation",
+    "type": "medicine",
+    "time": "10:15 - 11:00",
+    "person": "Dr. Gulnara Iskakova",
+    "date": "2025-02-24"
+  },
+  {
+    "title": "Sports Physical",
+    "type": "medicine",
+    "time": "11:00 - 11:45",
+    "person": "Dr. Vladimir Petrov",
+    "date": "2025-02-24"
+  },
+  {
+    "title": "Post-Injury Assessment",
+    "type": "medicine",
+    "time": "12:00 - 12:45",
+    "person": "Dr. Ainur Smagulova",
+    "date": "2025-02-24"
+  },
+  {
+    "title": "Kickboxing",
+    "type": "sport",
+    "time": "12:45 - 13:30",
+    "person": "Igor Kazikhanov",
+    "date": "2025-02-24"
+  },
+  {
+    "title": "Weightlifting",
+    "type": "sport",
+    "time": "13:30 - 14:15",
+    "person": "Ruslan Nugmanov",
+    "date": "2025-02-24"
+  },
+  {
+    "title": "Sports Nutrition",
+    "type": "medicine",
+    "time": "14:15 - 15:00",
+    "person": "Dr. Natalia Sorokina",
+    "date": "2025-02-24"
+  },
+  {
+    "title": "Boxing Techniques",
+    "type": "sport",
+    "time": "15:00 - 15:45",
+    "person": "Dmitry Volkov",
+    "date": "2025-02-24"
+  },
+  {
+    "title": "Advanced MMA",
+    "type": "sport",
+    "time": "16:00 - 16:45",
+    "person": "Timur Beisembayev",
+    "date": "2025-02-24"
+  },
+  {
+    "title": "Martial Arts Therapy",
+    "type": "medicine",
+    "time": "16:45 - 17:30",
+    "person": "Dr. Alina Romanova",
+    "date": "2025-02-24"
+  },
+  {
+    "title": "Traditional Kazakh Wrestling",
+    "type": "sport",
+    "time": "17:30 - 18:15",
+    "person": "Bolat Nurpeisov",
+    "date": "2025-02-24"
+  },
+  {
+    "title": "Sports Rehabilitation",
+    "type": "medicine",
+    "time": "18:15 - 19:00",
+    "person": "Dr. Yerbol Tasmagambetov",
+    "date": "2025-02-24"
+  },
+  {
+    "title": "Combat Sambo",
+    "type": "sport",
+    "time": "19:00 - 19:45",
+    "person": "Alexei Kuznetsov",
+    "date": "2025-02-24"
+  },
+  {
+    "title": "Judo Training",
+    "type": "sport",
+    "time": "08:15 - 09:00",
+    "person": "Kanat Yessenov",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Wrestling Fundamentals",
+    "type": "sport",
+    "time": "09:00 - 09:45",
+    "person": "Aybek Tulegenov",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Sports Medicine",
+    "type": "medicine",
+    "time": "09:45 - 10:30",
+    "person": "Dr. Olga Smirnova",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Injury Prevention",
+    "type": "medicine",
+    "time": "10:30 - 11:15",
+    "person": "Dr. Maxim Ivanov",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Strength Training",
+    "type": "sport",
+    "time": "11:15 - 12:00",
+    "person": "Darkhan Nurzhanov",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Physiotherapy",
+    "type": "medicine",
+    "time": "12:00 - 12:45",
+    "person": "Dr. Asel Baitursynova",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Sports Massage",
+    "type": "medicine",
+    "time": "12:45 - 13:30",
+    "person": "Dr. Sergei Morozov",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Muay Thai",
+    "type": "sport",
+    "time": "13:30 - 14:15",
+    "person": "Nurzhan Bekbosyn",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Wrestling Conditioning",
+    "type": "sport",
+    "time": "14:15 - 15:00",
+    "person": "Galym Kenzhebayev",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Physical Therapy",
+    "type": "medicine",
+    "time": "15:00 - 15:45",
+    "person": "Dr. Tatyana Kulikova",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Grappling Techniques",
+    "type": "sport",
+    "time": "16:00 - 16:45",
+    "person": "Yerlan Konakbayev",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Athletic Assessment",
+    "type": "medicine",
+    "time": "16:45 - 17:30",
+    "person": "Dr. Elena Popova",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "MMA Conditioning",
+    "type": "sport",
+    "time": "17:30 - 18:15",
+    "person": "Azamat Temirov",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Sports Psychology",
+    "type": "medicine",
+    "time": "18:15 - 19:00",
+    "person": "Dr. Marat Sabitov",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Kyokushin Karate",
+    "type": "sport",
+    "time": "19:00 - 19:45",
+    "person": "Ivan Sokolov",
+    "date": "2025-02-25"
+  },
+  {
+    "title": "Boxing Fundamentals",
+    "type": "sport",
+    "time": "08:00 - 08:45",
+    "person": "Bakhtiyar Nurpeisov",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Strength & Conditioning",
+    "type": "sport",
+    "time": "08:45 - 09:30",
+    "person": "Zhanat Zhakiyanov",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Olympic Wrestling",
+    "type": "sport",
+    "time": "09:30 - 10:15",
+    "person": "Eldar Khamitov",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Nutritional Counseling",
+    "type": "medicine",
+    "time": "10:15 - 11:00",
+    "person": "Dr. Dinara Esimova",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Injury Rehabilitation",
+    "type": "medicine",
+    "time": "11:00 - 11:45",
+    "person": "Dr. Pavel Orlov",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Performance Assessment",
+    "type": "medicine",
+    "time": "12:00 - 12:45",
+    "person": "Dr. Zhanna Iskakova",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Combat Striking",
+    "type": "sport",
+    "time": "12:45 - 13:30",
+    "person": "Askar Baitasov",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Sambo Techniques",
+    "type": "sport",
+    "time": "13:30 - 14:15",
+    "person": "Mikhail Popov",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Joint Mobility",
+    "type": "medicine",
+    "time": "14:15 - 15:00",
+    "person": "Dr. Artur Konovalov",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Therapeutic Massage",
+    "type": "medicine",
+    "time": "15:00 - 15:45",
+    "person": "Dr. Raushan Kenzhebekova",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Brazilian Jiu-Jitsu",
+    "type": "sport",
+    "time": "16:00 - 16:45",
+    "person": "Nurlan Berdibekov",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Mixed Martial Arts",
+    "type": "sport",
+    "time": "16:45 - 17:30",
+    "person": "Daniyar Yeleusinov",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Combat Sports Medicine",
+    "type": "medicine",
+    "time": "17:30 - 18:15",
+    "person": "Dr. Yulia Novikova",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Sports Injuries",
+    "type": "medicine",
+    "time": "18:15 - 19:00",
+    "person": "Dr. Aidos Sultanov",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Kickboxing Advanced",
+    "type": "sport",
+    "time": "19:00 - 19:45",
+    "person": "Roman Grigoriev",
+    "date": "2025-02-26"
+  },
+  {
+    "title": "Wrestling Drills",
+    "type": "sport",
+    "time": "08:15 - 09:00",
+    "person": "Bekzat Almakhan",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "MMA Sparring",
+    "type": "sport",
+    "time": "09:00 - 09:45",
+    "person": "Almaz Kenenbaev",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Sports Nutrition",
+    "type": "medicine",
+    "time": "09:45 - 10:30",
+    "person": "Dr. Nikolai Smirnov",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Concussion Assessment",
+    "type": "medicine",
+    "time": "10:30 - 11:15",
+    "person": "Dr. Gulmira Tazhibaeva",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Sambo Advanced",
+    "type": "sport",
+    "time": "11:15 - 12:00",
+    "person": "Kairat Nurmagambetov",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Medical Screening",
+    "type": "medicine",
+    "time": "12:00 - 12:45",
+    "person": "Dr. Alexandra Kuznetsova",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Flexibility Training",
+    "type": "sport",
+    "time": "12:45 - 13:30",
+    "person": "Yevgeniy Ryabov",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Athletic Rehabilitation",
+    "type": "medicine",
+    "time": "13:30 - 14:15",
+    "person": "Dr. Bakhytzhan Nurpeisov",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Traditional Boxing",
+    "type": "sport",
+    "time": "14:15 - 15:00",
+    "person": "Arman Kulibayev",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Injury Consultation",
+    "type": "medicine",
+    "time": "15:00 - 15:45",
+    "person": "Dr. Svetlana Ivanova",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Submission Wrestling",
+    "type": "sport",
+    "time": "16:00 - 16:45",
+    "person": "Bauyrzhan Orazgaliyev",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Sports Cardiology",
+    "type": "medicine",
+    "time": "16:45 - 17:30",
+    "person": "Dr. Ilyas Tasmagambetov",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Combat Fitness",
+    "type": "sport",
+    "time": "17:30 - 18:15",
+    "person": "Stanislav Drozdov",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Medical Checkup",
+    "type": "medicine",
+    "time": "18:15 - 19:00",
+    "person": "Dr. Kamila Rakhimova",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Wrestling Takedowns",
+    "type": "sport",
+    "time": "19:00 - 19:45",
+    "person": "Madiyar Ashkeev",
+    "date": "2025-02-27"
+  },
+  {
+    "title": "Cardio Conditioning",
+    "type": "sport",
+    "time": "08:00 - 08:45",
+    "person": "Rustem Omarov",
+    "date": "2025-02-28"
+  },
+  {
+    "title": "Boxing Combinations",
+    "type": "sport",
+    "time": "08:45 - 09:30",
+    "person": "Viktor Demyanenko",
+    "date": "2025-02-28"
+  },
+  {
+    "title": "MMA Strategy",
+    "type": "sport",
+    "time": "09:30 - 10:15",
+    "person": "Nurbol Zhumbayev",
+    "date": "2025-02-28"
+  },
+  {
+    "title": "Sports Medicine Evaluation",
+    "type": "medicine",
+    "time": "10:15 - 11:00",
+    "person": "Dr. Irina Solovyova",
+    "date": "2025-02-28"
+  },
+  {
+    "title": "Kinesio Taping",
+    "type": "medicine",
+    "time": "11:00 - 11:45",
+    "person": "Dr. Amir Kaskabayev",
+    "date": "2025-02-28"
+  },
+  {
+    "title": "Mobility Work",
+    "type": "medicine",
+    "time": "12:00 - 12:45",
+    "person": "Dr. Anya Lebedeva",
+    "date": "2025-02-28"
+  },
+  {
+    "title": "Ground Game",
+    "type": "sport",
+    "time": "12:45 - 13:30",
+    "person": "Daryn Zhumadilov",
+    "date": "2025-02-28"
+  },
+  {
+    "title": "Striking Mechanics",
+    "type": "sport",
+    "time": "13:30 - 14:15",
+    "person": "Sergey Morozov",
+    "date": "2025-02-28"
+  },
+  {
+    "title": "Recovery Therapy",
+    "type": "medicine",
+    "time": "14:15 - 15:00",
+    "person": "Dr. Saule Akhmetzhan",
+    "date": "2025-02-28"
+  },
+  {
+    "title": "Functional Assessment",
+    "type": "medicine",
+    "time": "15:00 - 15:45",
+    "person": "Dr. Andrei Kovalev",
+    "date": "2025-02-28"
+  },
+  {
+    "title": "Judo Techniques",
+    "type": "sport",
+    "time": "16:00 - 16:45",
+    "person": "Maxim Rakov",
+    "date": "2025-02-28"
+  },
+  {
+    "title": "Strength Conditioning",
+    "type": "sport",
+    "time": "16:45 - 17:30",
+    "person": "Adil Zhubanyshev",
+    "date": "2025-02-28"
+  },
+  {
+    "title": "Sports Orthopedics",
+    "type": "medicine",
+    "time": "17:30 - 18:15",
+    "person": "Dr. Marina Kozlova",
+    "date": "2025-02-28"
+  },
+  {
+    "title": "Musculoskeletal Ultrasound",
+    "type": "medicine",
+    "time": "18:15 - 19:00",
+    "person": "Dr. Kanat Baytursynov",
+    "date": "2025-02-28"
+  },
+  {
+    "title": "Tactical Wrestling",
+    "type": "sport",
+    "time": "19:00 - 19:45",
+    "person": "Askhat Zhitkeyev",
+    "date": "2025-02-28"
+  },
+  {
+    "title": "Boxing Footwork",
+    "type": "sport",
+    "time": "08:15 - 09:00",
+    "person": "Samat Bashenov",
+    "date": "2025-03-01"
+  },
+  {
+    "title": "Combat Training",
+    "type": "sport",
+    "time": "09:00 - 09:45",
+    "person": "Dmitry Balakin",
+    "date": "2025-03-01"
+  },
+  {
+    "title": "Injury Management",
+    "type": "medicine",
+    "time": "09:45 - 10:30",
+    "person": "Dr. Aizhan Mukanova",
+    "date": "2025-03-01"
+  },
+  {
+    "title": "Medical Clearance",
+    "type": "medicine",
+    "time": "10:30 - 11:15",
+    "person": "Dr. Grigory Fedorov",
+    "date": "2025-03-01"
+  },
+  {
+    "title": "Counter Wrestling",
+    "type": "sport",
+    "time": "11:15 - 12:00",
+    "person": "Talgat Syzdykov",
+    "date": "2025-03-01"
+  },
+  {
+    "title": "Therapeutic Exercise",
+    "type": "medicine",
+    "time": "12:00 - 12:45",
+    "person": "Dr. Larisa Petrova",
+    "date": "2025-03-01"
+  },
+  {
+    "title": "Performance Nutrition",
+    "type": "medicine",
+    "time": "12:45 - 13:30",
+    "person": "Dr. Zarina Shakhanova",
+    "date": "2025-03-01"
+  },
+  {
+    "title": "Special Combat Training",
+    "type": "sport",
+    "time": "13:30 - 14:15",
+    "person": "Nurzhan Turlybek",
+    "date": "2025-03-01"
+  },
+  {
+    "title": "Fight Strategy",
+    "type": "sport",
+    "time": "14:15 - 15:00",
+    "person": "Alexey Fedoseev",
+    "date": "2025-03-01"
+  },
+  {
+    "title": "Preventative Care",
+    "type": "medicine",
+    "time": "15:00 - 15:45",
+    "person": "Dr. Alma Tursunova",
+    "date": "2025-03-01"
+  }
+]

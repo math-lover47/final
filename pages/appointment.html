@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../styles/general.css" />
-    <link rel="stylesheet" href="../styles/appointment.css" />
+    <link rel="stylesheet" href="../styles/aboutUs.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -25,39 +25,39 @@
       type="image/x-icon"
     />
   </head>
-
   <body>
-    <!-- navbar-section -->
+    <!-- navbar -->
     <div id="navbar-container"></div>
 
-    <!-- Add after nav -->
-    <main class="container mt-5 pt-5">
-      <h1 class="text-center mb-5">Book Appointment</h1>
-
-      <div class="row g-4">
-        <div class="col-md-6">
-          <form id="appointmentForm">
-            <div class="mb-3">
-              <label class="form-label">Select Specialist</label>
-              <select class="form-select" id="specialistSelect">
-                <!-- Options loaded via JS -->
-              </select>
+    <section class="section">
+      <div class="container-fluid my-5" id="appointment-container">
+      </div>
+    
+      <!-- Modal -->
+      <div class="modal fade" id="appointmentModal" tabindex="-1" aria-labelledby="appointmentModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="appointmentModalLabel">Appointment Details</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <!-- More form fields -->
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
-        </div>
-
-        <div class="col-md-6">
-          <div id="doctorCards" class="row g-3">
-            <!-- Doctor cards loaded via JS -->
+            <div class="modal-body">
+              <img src="https://via.placeholder.com/400x200" alt="Appointment Image" class="modal-image">
+              <p id="modalDate"></p>
+              <p id="modalPerson"></p>
+              <p id="modalLocation"></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" id="bookNow">Book Now</button>
+            </div>
           </div>
         </div>
       </div>
-    </main>
+    
+    </section>
     <!-- footer -->
     <div id="footer-container"></div>
-
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

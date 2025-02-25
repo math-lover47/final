@@ -159,6 +159,9 @@ p, pre {
   .r-small {
     display: block;
   }
+  .nav-link {
+    text-align: center;
+  }  
 }
 @media (max-width: 768px) {
   .navbar-collapse {

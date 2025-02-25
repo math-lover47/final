@@ -1,0 +1,253 @@
+/* Calendar styles */
+#date-row {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.day-header {
+  flex: 1;
+}
+
+#morning-row, #noon-row, #afternoon-row {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.day-column {
+  flex: 1;
+}
+
+.calendar-wrapper {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.current-period {
+  color: #212529;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e9ecef;
+  position: relative;
+}
+
+.current-period:after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 2px;
+  background-color: #0d6efd;
+}
+
+.date-header {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px 0;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  margin-bottom: 25px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+  color: #495057;
+  transition: color 0.3s ease;
+  font-size: 1.5rem;
+}
+
+.cursor-pointer:hover:not(.disabled) {
+  color: #0d6efd;
+  transform: scale(1.1);
+}
+
+.cursor-pointer.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.time-section {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+}
+
+.section-title {
+  font-weight: bold;
+  color: #495057;
+  border-bottom: 2px solid #e9ecef;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.section-title:after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background-color: #0d6efd;
+}
+
+.day-header {
+  padding: 15px 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.day-header:hover:not(.past-day) {
+  background-color: #f8f9fa;
+}
+
+.day-name {
+  margin-bottom: 8px;
+  color: #212529;
+  font-size: 1.4rem;
+}
+
+.date-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  border-radius: 6px;
+  background-color: #f8f9fa;
+}
+
+.date-number {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #495057;
+}
+
+.date-month {
+  font-size: 0.85rem;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.date-year {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+.day-column {
+  min-height: 150px;
+  padding: 15px;
+  border-right: 1px solid #e9ecef;
+}
+
+.day-column:last-child {
+  border-right: none;
+}
+
+.appointment-card {
+  background-color: #fff;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+  border: none !important;
+}
+
+.appointment-card:not(.past-appointment):hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+/* Category indicators */
+.orange-circle {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #fd7e14;
+}
+
+.azure-circle {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #0d6efd;
+}
+
+.sport-category {
+  border-left: 4px solid #fd7e14;
+}
+
+.medicine-category {
+  border-left: 4px solid #0d6efd;
+}
+
+/* Past days styling */
+.past-day {
+  opacity: 0.6;
+  color: #6c757d;
+}
+
+.past-column {
+  background-color: #f8f9fa;
+  opacity: 0.8;
+}
+
+.past-appointment {
+  opacity: 0.6;
+  box-shadow: none;
+  cursor: not-allowed !important;
+  pointer-events: none;
+}
+
+.card-title {
+  font-weight: 600;
+  color: #212529;
+}
+
+.card-time {
+  font-size: 0.9rem;
+  color: #495057;
+}
+
+.card-person {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767.98px) {
+  .calendar-wrapper {
+    padding: 15px;
+  }
+  .date-header, .time-section {
+    padding: 15px 10px;
+  }
+  .day-name {
+    font-size: 1.2rem;
+  }
+  .date-number {
+    font-size: 1.3rem;
+  }
+  .cursor-pointer {
+    font-size: 1.2rem;
+  }
+  .section-title {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .day-column {
+    min-height: 180px;
+  }
+}
+
+@media (min-width: 992px) {
+  .day-column {
+    min-height: 200px;
+  }
+}
