@@ -29,7 +29,7 @@ $(document).ready(function () {
     });
 
   // Event Delegation for "Read More" Buttons
-  $(".readmorebtn").on("click", function () {
+  $(document).on("click", ".readmorebtn", function () {
     const moreText = $(this).prev(".moretext"); // Find the associated .moretext
 
     moreText.toggle(); // Toggle visibility of the more text

@@ -47,17 +47,11 @@
 
   - Injury Recovery Programs
 
-  - Personalized Training Plans
-
-  - Rehabilitation Sessions
-
-  - Consultation with Specialists
-
 - Interactive components:
 
-  - Accordion/collapsible sections for each service (using JS/jQuery).
+  - Accordion/collapsible FAQ section (using JS/jQuery).
 
-  - Filterable list of services (e.g., filter by "Recovery," "Training," etc.).
+  - Bootstrap cards.
 
 ## Blog/News Page
 
@@ -68,6 +62,8 @@
   - Pagination buttons for articles.
 
   - Read more buttons for each article.
+
+  - Bootstrap cards.
 
 ## About us
 

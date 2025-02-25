@@ -21,7 +21,7 @@ h5,
 h6 {
   font-family: "Montserrat", sans-serif;
 }
-p {
+p, pre {
   font-size: 1.1rem;
   color: #4a5568;
   line-height: 1.8;
@@ -33,10 +33,6 @@ p {
   background-color: rgb(var(--primary-azure));
   transition: all 0.3s ease;
   color: rgb(var(--text-light));
-}
-.btn:hover {
-  background-color: rgb(var(--secondary-cyan));
-  color: rgb(var(--text-dark));
 }
 
 /* Navbar */
@@ -55,6 +51,8 @@ p {
 
 .nav-link:hover {
   color: rgb(var(--text-dark)) !important;
+  background-color: #fff;
+  border-radius: 1rem;
 }
 
 /* Footer */
@@ -166,4 +164,28 @@ p {
   .navbar-collapse {
     padding: 1rem;
   }
+}
+
+.card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 0.9rem;
 }

@@ -1,41 +1,28 @@
 // Services Data
-const servicesData = [
-  {
-    id: 1,
-    image: "../images/services/photo-01.jpeg",
-    title: "Injury Assessment and Evaluation",
-    description:
-      "Our sports rehab specialists conduct thorough assessments to understand the nature of your injury and its impact on your performance. We utilize state-of-the-art diagnostic tools and techniques to create an accurate picture of your condition.",
-  },
-  {
-    id: 2,
-    image: "../images/services/photo-02.jpeg",
-    title: "Personalized Rehabilitation Plans",
-    description:
-      "Based on the evaluation, our team develops a personalized rehabilitation plan that includes a combination of exercises, therapies, and modalities designed to expedite healing and restore function. We emphasize evidence-based practices to ensure the most effective treatment.",
-  },
-  {
-    id: 3,
-    image: "../images/services/photo-03.jpeg",
-    title: "Sport-Specific Training",
-    description:
-      "We offer specialized training programs tailored to your specific sport, focusing on enhancing strength, flexibility, and endurance. Our goal is to optimize your performance while minimizing the risk of re-injury.",
-  },
-  {
-    id: 4,
-    image: "../images/services/photo-04.jpeg",
-    title: "Advanced Therapy Techniques",
-    description:
-      "Our sports rehabilitation program includes access to cutting-edge therapy techniques, such as manual therapy, therapeutic exercise, aquatic therapy, and modalities like ultrasound and electrical stimulation to support healing and pain management.",
-  },
-  {
-    id: 5,
-    image: "../images/services/photo-05.png",
-    title: "Return-to-Play Assessments",
-    description:
-      "Before returning to your sport, we conduct thorough assessments to ensure you’re ready to perform safely and effectively. Our return-to-play protocols are designed to give you confidence in your recovery and readiness.",
-  },
-];
+let servicesData = [];
+// FAQ Data
+let faqData = [];
+// Fetch the JSON file
+$(document).ready(function () {
+  fetch("../data/services.json")
+    .then((response) => response.json()) // Parse the JSON
+    .then((data) => {
+      servicesData = data
+      buildServices();
+    })
+    .catch((error) => {
+      console.error("Error loading team data:", error);
+    });
+  fetch("../data/faq.json")
+    .then((response) => response.json()) // Parse the JSON
+    .then((data) => {
+      faqData = data
+      buildFaq();
+    })
+    .catch((error) => {
+      console.error("Error loading team data:", error);
+    });
+});
 
 // Function to Build Services Cards
 function buildServices() {
@@ -62,8 +49,26 @@ function buildServices() {
     cards.append(card);
   });
 }
+// Function to Build FAQ Section
+function buildFaq() {
+  const faqContainer = $("#faqContainer");
+  faqContainer.empty(); // Clear existing content
 
-// Initial Build on Page Load
-$(document).ready(function () {
-  buildServices();
-});
+  faqData.forEach((faq, index) => {
+    const faqItem = `
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading${index}">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse${index}" aria-expanded="false" aria-controls="faqCollapse${index}">
+            ${faq.question}
+          </button>
+        </h2>
+        <div id="faqCollapse${index}" class="accordion-collapse collapse" aria-labelledby="faqHeading${index}" data-bs-parent="#faqContainer">
+          <div class="accordion-body">
+            ${faq.answer}
+          </div>
+        </div>
+      </div>
+    `;
+    faqContainer.append(faqItem);
+  });
+}
