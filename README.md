@@ -33,11 +33,11 @@
 
 ## Home Page
 
-- Motivational banners with lightbox (Bootstrap + Jquery).
+- Motivational banners with carousel/slider (using Bootstrap).
 
-- Brief introduction to ASM and its importance.
+- Brief introduction to sports medicine and its importance.
 
-- Call-to-action buttons: "Our Services" "Hear their history"
+- Call-to-action buttons: "Book an Appointment," "Learn More About Recovery."
 
 - Interactive elements: Smooth scrolling animations, hover effects on buttons.
 
@@ -65,25 +65,27 @@
 
 - Interactive components:
 
-  - Pagination buttons for articles.
+  - Search bar with autocomplete (using JS/jQuery).
 
-  - Read more buttons for each article.
+  - Pagination or "Load More" button for articles.
+
+  - Social sharing buttons for each article.
 
 ## About us
 
 - List of available doctors and trainers with:
 
-  - Photo
+  - Photos
 
-  - Role in team
+  - Specializations
 
-  - Specialization
+  - Brief bios
 
 - Interactive components:
 
-  - Filterable table (e.g., filter by profession).
+  - Filterable table (e.g., filter by specialization, availability).
 
-  - Bootstrap cards.
+  - Modal windows for detailed profiles (using JS/jQuery).
 
 ## Appointment Booking Page
 
@@ -279,6 +281,8 @@ https://www.youtube.com/watch?v=Mgv1zvcjhj4&list=PL7mzWznV9jeQL5Qo1FLHHDYwzqY-1d
 
 https://www.youtube.com/watch?v=LI8oVfKxE-Q&list=PL1Rn1b-XqFOuc7LQPGrIP1kZRajExbral
 
+https://www.youtube.com/watch?v=T33NN_pPeNI
+
 StackOverflow questions:
 
 https://stackoverflow.com/questions/36387676/is-it-possible-to-reuse-html-like-a-template-on-multiple-pages
@@ -294,20 +298,3 @@ Articles:
 https://www.medicalnewstoday.com/articles/active-recovery#types
 
 https://bjsm.bmj.com/
-
-
-additional
-
-https://www.youtube.com/watch?v=Z1BGAivZRlE
-
-https://www.youtube.com/watch?v=NVy2TO4yL8A
-
-https://www.mayoclinic.org/
-
-https://www.athenahealth.com/
-
-https://www.youtube.com/results?search_query=modal+bootstrap+login+sign+up
-
-https://www.youtube.com/watch?v=GQejHTFwyLo
-
-https://www.youtube.com/watch?v=mslD-bpvjiU

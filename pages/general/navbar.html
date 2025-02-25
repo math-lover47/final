@@ -1,84 +1,44 @@
 <section>
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container-fluid">
-        <!-- Logo -->
-        <div class="logo">
-          <a href="home.html">
-            <svg
-              width="300"
-              height="100"
-              viewBox="0 0 300 100"
-              xmlns="http://www.w3.org/2000/svg"
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <div class="logo">
+        <a href="home.html">
+          <svg
+            width="300"
+            height="100"
+            viewBox="0 0 300 100"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <text
+              x="60"
+              y="50"
+              font-family="Arial, sans-serif"
+              font-size="20"
+              font-weight="bold"
+              fill="#fff"
             >
-              <text
-                x="60"
-                y="50"
-                font-family="Arial, sans-serif"
-                font-size="20"
-                font-weight="bold"
-                fill="#fff"
-              >
-                Astana Sport Medicine
-              </text>
-            </svg>
-          </a>
-        </div>
-
-        <!-- Navbar Toggler -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle Navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Login & Sign Up Buttons -->
-        <div class="registration r-small">
-          <a
-            href="#"
-            class="btn btn-outline-light me-2"
-            data-bs-toggle="modal"
-            data-bs-target="#loginModal"
-            >Login</a
-          >
-          <a
-            href="#"
-            class="btn btn-outline-light me-2"
-            data-bs-toggle="modal"
-            data-bs-target="#signupModal"
-            >Sign Up</a
-          >
-        </div>
-
-        <!-- Navbar Links -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item px-3">
-              <a class="nav-link" href="home.html">Home</a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="nav-link" href="aboutUs.html">About Us</a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="nav-link" href="services.html">Services</a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="nav-link" href="blog.html">Blog</a>
-            </li>
-            <li class="nav-item px-3">
-              <a class="nav-link" href="appointment.html">Appointment</a>
-            </li>
-          </ul>
-        </div>
+              Astana Sport Medicine
+            </text>
+          </svg>
+        </a>
       </div>
 
+      <!-- Navbar Toggler -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle Navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
       <!-- Login & Sign Up Buttons -->
-      <div class="registration r-large">
+      <div class="registration r-small">
         <a
           href="#"
           class="btn btn-outline-light me-2"
@@ -94,112 +54,126 @@
           >Sign Up</a
         >
       </div>
-    </nav>
 
-    <!-- Login Modal -->
-    <div
-      class="modal fade"
-      id="loginModal"
-      tabindex="-1"
-      aria-labelledby="loginModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="loginModalLabel">Login</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <form id="loginForm">
-              <div class="mb-3">
-                <label for="loginEmail" class="form-label"
-                  >Email address</label
-                >
-                <input
-                  type="email"
-                  class="form-control"
-                  id="loginEmail"
-                  required
-                />
-              </div>
-              <div class="mb-3">
-                <label for="loginPassword" class="form-label">Password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  id="loginPassword"
-                  required
-                />
-              </div>
-              <button type="submit" class="btn btn-primary">Login</button>
-            </form>
-          </div>
-        </div>
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item px-3">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="aboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="appointment.html">Appointment</a>
+          </li>
+        </ul>
       </div>
     </div>
 
-    <!-- Sign Up Modal -->
-    <div
-      class="modal fade"
-      id="signupModal"
-      tabindex="-1"
-      aria-labelledby="signupModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="signupModalLabel">Sign Up</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <form id="signupForm">
-              <div class="mb-3">
-                <label for="signupName" class="form-label">Full Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="signupName"
-                  required
-                />
-              </div>
-              <div class="mb-3">
-                <label for="signupEmail" class="form-label"
-                  >Email address</label
-                >
-                <input
-                  type="email"
-                  class="form-control"
-                  id="signupEmail"
-                  required
-                />
-              </div>
-              <div class="mb-3">
-                <label for="signupPassword" class="form-label"
-                  >Password</label
-                >
-                <input
-                  type="password"
-                  class="form-control"
-                  id="signupPassword"
-                  required
-                />
-              </div>
-              <button type="submit" class="btn btn-primary">Sign Up</button>
-            </form>
-          </div>
+    <!-- Login & Sign Up Buttons -->
+    <div class="registration r-large">
+      <a
+        href="#"
+        class="btn btn-outline-light me-2"
+        data-bs-toggle="modal"
+        data-bs-target="#loginModal"
+        >Login</a
+      >
+      <a
+        href="#"
+        class="btn btn-outline-light me-2"
+        data-bs-toggle="modal"
+        data-bs-target="#signupModal"
+        >Sign Up</a
+      >
+    </div>
+  </nav>
+
+  <!-- Login Modal -->
+  <div
+    class="modal fade"
+    id="loginModal"
+    tabindex="-1"
+    aria-labelledby="loginModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">Login</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <form id="loginForm" novalidate>
+            <div class="mb-3">
+              <label for="loginEmail" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="loginEmail" />
+              <div class="loginError" id="loginEmailError"></div>
+            </div>
+            <div class="mb-3">
+              <label for="loginPassword" class="form-label">Password</label>
+              <input type="password" class="form-control" id="loginPassword" />
+              <div class="loginError" id="loginPasswordError"></div>
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+          </form>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+
+  <!-- Sign Up Modal -->
+  <div
+    class="modal fade"
+    id="signupModal"
+    tabindex="-1"
+    aria-labelledby="signupModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="signupModalLabel">Sign Up</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <form id="signupForm" novalidate>
+            <div class="mb-3">
+              <label for="signupName" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="signupName" />
+              <div class="signupError" id="signupNameError"></div>
+            </div>
+            <div class="mb-3">
+              <label for="signupEmail" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="signupEmail" />
+              <div class="signupError" id="signupEmailError"></div>
+            </div>
+            <div class="mb-3">
+              <label for="signupPassword" class="form-label">Password</label>
+              <input type="password" class="form-control" id="signupPassword" />
+              <div class="signupError" id="signupPasswordError"></div>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
