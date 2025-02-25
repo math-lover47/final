@@ -261,13 +261,15 @@ function buildCards() {
                     <div class="card-body">
                         <span class="badge bg-primary mb-2">${obj.category}</span>
                         <h5 class="card-title">${obj.title}</h5>
-                        <p class="card-text">${obj.description}</p>
-                        <p class="card-text">
-                            <small class="text-body-secondary">
-                                <i class="bi bi-clock"></i> Read time ${obj.read_time} min
-                            </small>
-                        </p>
-                        <a href="#" class="btn btn-link">
+                        <div class="moretext">
+                          <p class="card-text">${obj.description}</p>
+                          <p class="card-text">
+                          <small class="text-body-secondary">
+                          <i class="bi bi-clock"></i> Read time ${obj.read_time} min
+                          </small>
+                          </p>
+                        </div>
+                        <a class="btn btn-link readmorebtn">
                             Read more 
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>

@@ -27,6 +27,19 @@ $(document).ready(function () {
       document.getElementById("navbar-container").innerHTML = data;
       initializeFormHandlers();
     });
+
+  // Event Delegation for "Read More" Buttons
+  $(".readmorebtn").on("click", function () {
+    const moreText = $(this).prev(".moretext"); // Find the associated .moretext
+
+    moreText.toggle(); // Toggle visibility of the more text
+
+    if (moreText.css("display") === "none") {
+      $(this).html(`Read More <i class="fa-solid fa-arrow-right"></i>`);
+    } else {
+      $(this).html(`Read Less <i class="fa-solid fa-arrow-left"></i>`);
+    }
+  });
 });
 
 // User class for authentication

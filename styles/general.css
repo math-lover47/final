@@ -38,6 +38,7 @@ p {
   background-color: rgb(var(--secondary-cyan));
   color: rgb(var(--text-dark));
 }
+
 /* Navbar */
 .navbar {
   background: rgba(var(--primary-azure), 0.95);
@@ -115,6 +116,27 @@ p {
 .signupError {
   color: #dc3545;
   font-size: 0.9rem;
+  display: none;
+}
+/* btns across pages */
+.btn-link {
+  text-decoration: none;
+  color: rgb(var(--text-light));
+}
+
+.btn-link i {
+  transition: transform 0.3s ease-in-out; /* Reduced duration for smoother animation */
+}
+
+.btn-link:hover {
+  background: #fff;
+  color: rgb(var(--text-dark));
+}
+
+.btn-link:hover i {
+  transform: translateX(1rem);
+}
+.moretext {
   display: none;
 }
 

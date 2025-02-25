@@ -1,16 +1,11 @@
 /* About Us Section Styling */
-.about-us {
-  background-color: #f8f9fa;
-  padding: 60px 0;
-}
+
 .about-us .lead {
   font-size: 1.2rem;
   font-weight: 500;
   color: #2d3748;
 }
-#moretext {
-  display: none;
-}
+
 /* Carousel Styling */
 .carousel-item img {
   border-radius: 1rem;
