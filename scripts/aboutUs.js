@@ -1,17 +1,25 @@
 let teamData = []; // Initialize an empty array
 const state = {
+  // is an object that keeps track of the current state of the application:
   teamSet: teamData,
-  visibleItems: 8, // Show 2 rows initially (4 cards per row)
-  itemsPerLoad: 8, // Load 2 more rows when clicking "Load More"
+  visibleItems: 8, // Show 8 rows initially (4 cards per row)
+  itemsPerLoad: 8, // Load 8 more rows when clicking "Load More"
 };
 
 // Fetch the JSON file
 $(document).ready(function () {
+  // fetch - make network requests, typically to retrieve resources from a server.
+
+  // It returns a promise that resolves to the Response object representing the response to the request.
+
+  // You can chain .then() to handle the response and .catch() to handle any errors.
+
+  // "Producing code" is code that can take some time
   fetch("../data/team.json")
-    .then((response) => response.json()) // Parse the JSON
+    .then((response) => response.json()) // Parse the JSON, "Consuming code" is code that must wait for the result
     .then((data) => {
       teamData = data; // Assign the loaded data to teamData
-      state.teamSet = teamData
+      state.teamSet = teamData;
       // Add filter change handler
       $("#categoryFilter").on("change", filterTeam);
       buildTeamCards(); // Call a function to initialize the team section
@@ -21,10 +29,12 @@ $(document).ready(function () {
     });
 });
 
+// This function filters the team members based on the selected category.
 function filterTeam() {
   const selectedCategory = $("#categoryFilter").val();
   let filteredTeam = teamData;
 
+  // If the selected category is not "all", it filters teamData to include only members of the selected category.
   if (selectedCategory !== "all") {
     filteredTeam = teamData.filter(
       (member) => member.category === selectedCategory

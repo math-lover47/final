@@ -7,6 +7,7 @@ $(document).ready(function () {
     });
 
   // Sections appearing animation
+  // IntersectionObserver: A browser API that detects when an element enters or leaves the viewport.
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
@@ -16,8 +17,8 @@ $(document).ready(function () {
       }
     });
   });
-
   const hiddenElements = document.querySelectorAll(".hidden");
+  // observer.observe(el): Starts observing each .hidden element for visibility changes.
   hiddenElements.forEach((el) => observer.observe(el));
 
   // Load the navbar

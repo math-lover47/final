@@ -9,7 +9,9 @@
   flex: 1;
 }
 
-#morning-row, #noon-row, #afternoon-row {
+#morning-row,
+#noon-row,
+#afternoon-row {
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
@@ -22,7 +24,7 @@
 .calendar-wrapper {
   background-color: #f8f9fa;
   border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
 .current-period {
@@ -35,7 +37,7 @@
 }
 
 .current-period:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -2px;
   left: 50%;
@@ -49,7 +51,7 @@
   background-color: #fff;
   border-radius: 10px;
   padding: 20px 0;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 25px;
 }
 
@@ -74,7 +76,7 @@
   background-color: #fff;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
 }
 
 .section-title {
@@ -87,7 +89,7 @@
 }
 
 .section-title:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -2px;
   left: 0;
@@ -152,13 +154,13 @@
 .appointment-card {
   background-color: #fff;
   transition: all 0.25s ease;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
   border: none !important;
 }
 
 .appointment-card:not(.past-appointment):hover {
   transform: translateY(-3px);
-  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
 
@@ -193,7 +195,7 @@
 
 .past-column {
   background-color: #f8f9fa;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .past-appointment {
@@ -223,7 +225,8 @@
   .calendar-wrapper {
     padding: 15px;
   }
-  .date-header, .time-section {
+  .date-header,
+  .time-section {
     padding: 15px 10px;
   }
   .day-name {

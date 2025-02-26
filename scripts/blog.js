@@ -3,16 +3,15 @@ let carddata = [];
 const state = {
   cardSet: carddata,
   page: 1,
-  rows: 6,
+  cardsAmount: 8,
 };
 // Initial build
 $(document).ready(function () {
   // Fetch the JSON file
-  
+
   fetch("../data/article.json")
     .then((response) => response.json()) // Parse the JSON
     .then((data) => {
-      
       carddata = data; // Assign the loaded data to carddata
       state.cardSet = carddata;
       $("#categoryFilter, #readTimeFilter").on("change", filterCards);
@@ -22,12 +21,12 @@ $(document).ready(function () {
       console.error("Error loading team data:", error);
     });
 });
-function pagination(cardSet, page, rows) {
-  const trimStart = (page - 1) * rows;
-  const trimEnd = trimStart + rows;
+function pagination(cardSet, page, cardsAmount) {
+  const trimStart = (page - 1) * cardsAmount;
+  const trimEnd = trimStart + cardsAmount;
   // Fixed: Changed querySet to cardSet
   const trimmedData = cardSet.slice(trimStart, trimEnd);
-  const pages = Math.ceil(cardSet.length / rows);
+  const pages = Math.ceil(cardSet.length / cardsAmount);
 
   return {
     cardSet: trimmedData,
@@ -40,7 +39,7 @@ function buildCards() {
   // Clear existing cards before adding new ones
   cards.empty();
 
-  const data = pagination(state.cardSet, state.page, state.rows);
+  const data = pagination(state.cardSet, state.page, state.cardsAmount);
   const myList = data.cardSet; // Fixed: Use paginated data instead of full cardSet
 
   myList.forEach((obj) => {
@@ -78,6 +77,9 @@ function buildPagination(pages) {
   const pagination = $("#pagination");
   pagination.empty();
 
+  // Array.from creates a new array from an array-like or iterable object.
+  //  The first argument creates an array-like object with a length property equal to the total number of pages (pages)
+  // The second argument is a mapping function
   const paginationHtml = `
         <nav aria-label="Page navigation">
             <ul class="pagination justify-content-center">
@@ -151,7 +153,7 @@ function filterCards() {
         case "quick":
           return card.read_time <= 5;
         case "normal":
-          return card.read_time > 5 && card.read_time <= 15;  
+          return card.read_time > 5 && card.read_time <= 15;
         case "long":
           return card.read_time > 15;
         default:

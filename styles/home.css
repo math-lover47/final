@@ -102,11 +102,11 @@
   width: 100%;
 }
 
-video {
+.testimonials video {
   border-radius: 1rem;
   scale: 0.99;
 }
-video:hover {
+.testimonials video:hover {
   scale: 1;
 }
 .testimonials .card {
